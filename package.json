@@ -24,7 +24,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.4.1",
+    "next": "13.2.4",
     "patch-package": "^7.0.0",
     "postcss": "8.4.23",
     "react": "18.2.0",
