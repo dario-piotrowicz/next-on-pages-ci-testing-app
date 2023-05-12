@@ -17,17 +17,18 @@
     "dev": "npx wrangler pages dev .vercel/output/static"
   },
   "dependencies": {
-    "@types/node": "18.15.3",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
+    "@types/node": "20.0.0",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
     "eslint": "8.36.0",
+    "postcss": "8.4.23",
     "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4946130539/npm-package-next-on-pages-232"
+    "typescript": "5.0.4",
+    "tailwindcss": "3.3.2",
+    "@cloudflare/next-on-pages": "^0.10.1"
   }
 }
