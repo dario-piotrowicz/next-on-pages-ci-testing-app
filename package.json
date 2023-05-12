@@ -25,8 +25,7 @@
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4",
-    "tailwindcss": "3.3.2",
-    "@cloudflare/next-on-pages": "^0.10.1"
+    "typescript": "5.0.2",
+    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4946130539/npm-package-next-on-pages-232"
   }
 }
