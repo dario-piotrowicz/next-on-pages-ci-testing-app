@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "_dev": "next dev",
-    "build": "next build",
+    "build": "echo 'aaaa'",
     "start": "next start",
     "lint": "next lint",
     "clearnpx": "npx clear-npx-cache",
@@ -17,7 +17,8 @@
     "dev": "npx wrangler pages dev .vercel/output/static"
   },
   "dependencies": {
-    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4966800154/npm-package-next-on-pages-239",
+    "@cloudflare/next-on-pages": "../../Repos/my-repos/next-on-pages",
+    "next-on-pages-vercel-cli": "latest",
     "wrangler": "2.20.0",
     "@types/node": "20.0.0",
     "@types/react": "18.2.5",
@@ -25,7 +26,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
-    "next": "13.4.1",
+    "next": "13.3.0",
     "patch-package": "^7.0.0",
     "postcss": "8.4.23",
     "react": "18.2.0",
