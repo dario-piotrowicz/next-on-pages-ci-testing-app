@@ -1,9 +1,9 @@
 {
-  "name": "middleware-13.2.4",
+  "name": "simple-app-dir-13.4-server-actions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "_dev": "next dev",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -13,24 +13,18 @@
     "nopw": "npm run npx-next-on-pages -- --watch",
     "nopm": "npm run npx-next-on-pages -- --experimental-minify",
     "nopmw": "npm run npx-next-on-pages -- --experimental-minify --watch",
-    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat",
-    "dev": "npx wrangler pages dev .vercel/output/static"
+    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4966800154/npm-package-next-on-pages-239",
-    "wrangler": "2.20.0",
-    "@types/node": "20.0.0",
-    "@types/react": "18.2.5",
-    "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.3.0",
-    "patch-package": "^7.0.0",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.4",
+    "next": "13.4",
     "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
+    "vercel": "^28.20.0"
   }
 }
