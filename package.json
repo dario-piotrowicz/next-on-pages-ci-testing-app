@@ -1,5 +1,5 @@
 {
-  "name": "simple-pages-dir-13.4.2",
+  "name": "simple-app-dir-13.3.1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,14 +13,18 @@
     "nopw": "npm run npx-next-on-pages -- --watch",
     "nopm": "npm run npx-next-on-pages -- --experimental-minify",
     "nopmw": "npm run npx-next-on-pages -- --experimental-minify --watch",
-    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
+    "pages:dev": "npx wrangler pages dev .vercel/output/static --binding MY_VAR=MY_VAR_VALUE --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
-    "next": "13.4.2",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "next": "13.3.1",
+    "postcss": "8.4.23",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4990028934/npm-package-next-on-pages-213"
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4990028934/npm-package-next-on-pages-213",
+    "vercel": "^28.20.0"
   }
 }
