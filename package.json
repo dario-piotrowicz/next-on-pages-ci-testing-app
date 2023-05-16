@@ -1,29 +1,20 @@
 {
-  "name": "simple-app-dir-13.3.1",
-  "version": "0.1.0",
-  "private": true,
+  "name": "ci-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "clearnpx": "npx clear-npx-cache",
-    "npx-next-on-pages": "npx @cloudflare/next-on-pages",
-    "nop": "npm run npx-next-on-pages",
-    "nopw": "npm run npx-next-on-pages -- --watch",
-    "nopm": "npm run npx-next-on-pages -- --experimental-minify",
-    "nopmw": "npm run npx-next-on-pages -- --experimental-minify --watch",
-    "pages:dev": "npx wrangler pages dev .vercel/output/static --binding MY_VAR=MY_VAR_VALUE --compatibility-flag=nodejs_compat"
+    "build": "npx @cloudflare/next-on-pages -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "autoprefixer": "10.4.14",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.1",
-    "next": "13.3.1",
-    "postcss": "8.4.23",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2",
-    "vercel": "^28.20.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dario-piotrowicz/next-on-pages-ci-testing-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dario-piotrowicz/next-on-pages-ci-testing-app/issues"
+  },
+  "homepage": "https://github.com/dario-piotrowicz/next-on-pages-ci-testing-app#readme"
 }
