@@ -27,7 +27,6 @@
 		"typescript": "5.0.2"
 	},
 	"devDependencies": {
-    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4966800154/npm-package-next-on-pages-239",
-		"vercel": "^28.20.0"
+    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/4990028934/npm-package-next-on-pages-213"
 	}
 }
