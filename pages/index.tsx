@@ -14,7 +14,6 @@ export default function Home() {
         <h1>Wasm Test App</h1>
         <div className='main-links'>
           <Link href="/wasm">Raw rust wasm example</Link>
-          <Link href="/api/og">Example of vercel/og usage (which relies on wasm)</Link>
         </div>
       </main>
     </>
