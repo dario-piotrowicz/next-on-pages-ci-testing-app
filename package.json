@@ -1,5 +1,5 @@
 {
-  "name": "simple-wasm-pages-13.3.1",
+  "name": "joelket23-demo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,28 +7,33 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "clearnpx": "npx clear-npx-cache",
-    "npx-next-on-pages": "npx @cloudflare/next-on-pages -m",
+    "shopify": "shopify",
+    "npx-next-on-pages": "npx @cloudflare/next-on-pages@pre-v1 --experimental-minify",
     "nop": "npm run npx-next-on-pages",
     "nopw": "npm run npx-next-on-pages -- --watch",
     "nopm": "npm run npx-next-on-pages -- --experimental-minify",
     "nopmw": "npm run npx-next-on-pages -- --experimental-minify --watch",
-    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat"
+    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat",
+    "build-shopify": "shopify app build",
+    "dev-shpoify": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
   },
   "dependencies": {
-    "@types/node": "18.16.0",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.1",
-    "next": "13.3.1",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@shopify/app": "^3.45.4",
+    "@shopify/app-bridge": "^3.7.7",
+    "@shopify/app-bridge-react": "^3.7.7",
+    "@shopify/cli": "^3.45.1",
+    "@shopify/polaris": "^10.38.0",
+    "@shopify/shopify-api": "^7.2.0",
+    "jwt-decode": "^3.1.2",
+    "next": "^13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
-  },
-  "devDependencies": {
-    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/5082667053/npm-package-next-on-pages-261",
-    "vercel": "^28.18.3",
-    "wrangler": "3.0.0"
+    "react-redux": "^8.0.5",
+    "@cloudflare/next-on-pages": "1.0.1",
+    "next-on-pages-vercel-cli": "29.3.0-next-on-pages-fix-3"
   }
 }
